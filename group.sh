@@ -1,8 +1,6 @@
 # -*- coding:utf-8 -*-
 #!/bin/bash
 
-#gam update group operations@rekic.me add member user don@rekic.me
-
 gam_command() {
   $HOME/bin/gam/gam update group $group_email add member user "$email"
   }

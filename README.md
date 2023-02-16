@@ -52,6 +52,8 @@ $ gam oauth create
 ### Create an account for system@publitas.com and give it Superuser permission
 ```
 gam create user superuser@rekic.me firstname Super lastname User password LkTGSBp5qnqS4RDK org / changepassword on gal off otheremail work system@publitas.com
+
+gam create admin superuser@rekic.me _SEED_ADMIN_ROLE customer
 ```
 
 
